@@ -180,7 +180,7 @@ export default function Home() {
               <p className="text-2xl sm:text-3xl font-light" style={{ color: "#1F2937" }}>
                 Our services start as low as{" "}
                 <span className="font-serif font-bold" style={{ color: "#C9A961" }}>
-                  $299 per month
+                  $149 per month
                 </span>
                 .
               </p>
@@ -283,7 +283,7 @@ export default function Home() {
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <Mail className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
                 <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Email</h3>
-                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-sm break-all block text-center" style={{ color: "#C9A961" }}>
                   bookkeeping@mpfinancialservices.com
                 </a>
               </Card>
