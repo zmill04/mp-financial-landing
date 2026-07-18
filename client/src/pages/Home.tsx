@@ -75,17 +75,17 @@ export default function Home() {
             </div>
             
             {/* Services Grid */}
-            <div className="grid sm:grid-cols-2 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Service 1 */}
               <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
                   <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
                 </div>
                 <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
-                  Monthly Bookkeeping
+                  Monthly Bookkeeping & Bank Reconciliation
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
-                  We keep your records organized and up to date every month so nothing falls through the cracks.
+                  Accurate, up-to-date books every month across every account.
                 </p>
               </Card>
               
@@ -95,10 +95,10 @@ export default function Home() {
                   <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
                 </div>
                 <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
-                  Catch-Up & Cleanup
+                  QuickBooks Setup, Cleanup & Migration
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
-                  Got a backlog? We'll sort through past records and get everything current and accurate.
+                  Online or Desktop, built right from day one, or fixed if it isn't.
                 </p>
               </Card>
               
@@ -108,23 +108,49 @@ export default function Home() {
                   <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
                 </div>
                 <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
-                  Financial Reports
+                  Financial Statement Preparation
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
-                  Clear reports that show you exactly how your business is doing and where your money goes.
+                  Clear monthly P&amp;L and balance sheet reporting you can act on.
                 </p>
               </Card>
-              
+
               {/* Service 4 */}
               <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
                   <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
                 </div>
                 <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
-                  Tax Prep Support
+                  Accounts Payable & Receivable
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
-                  We prepare everything your CPA needs so tax season is smooth and stress-free.
+                  Bills paid on time, invoices tracked, cash flow kept visible.
+                </p>
+              </Card>
+
+              {/* Service 5 */}
+              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
+                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
+                </div>
+                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+                  Payroll Coordination
+                </h3>
+                <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
+                  Support alongside ADP, Gusto, or QuickBooks Payroll.
+                </p>
+              </Card>
+
+              {/* Service 6 */}
+              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
+                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
+                </div>
+                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+                  Tax-Ready, Year-Round
+                </h3>
+                <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
+                  Books kept clean and current so tax season holds no surprises.
                 </p>
               </Card>
             </div>
@@ -132,8 +158,42 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== MEET THE FOUNDERS SECTION ===== */}
+      {/* ===== PRICING SECTION ===== */}
       <section className="py-24 sm:py-32" style={{ backgroundColor: "#F5F3F0" }}>
+        <div className="container max-w-3xl mx-auto px-4">
+          <div className="space-y-16">
+            {/* Section Title */}
+            <div className="text-center space-y-4">
+              <h2 className="text-4xl sm:text-5xl font-serif font-bold" style={{ color: "#001F3F" }}>
+                Pricing
+              </h2>
+              <div className="flex justify-center">
+                <div className="w-16 h-1 rounded-full" style={{ backgroundColor: "#C9A961" }}></div>
+              </div>
+              <p className="text-lg font-light" style={{ color: "#6B7280" }}>
+                Transparent pricing based on your needs
+              </p>
+            </div>
+
+            {/* Pricing Card */}
+            <div className="rounded-lg border-2 p-10 sm:p-12 text-center space-y-4" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+              <p className="text-2xl sm:text-3xl font-light" style={{ color: "#1F2937" }}>
+                Our services start as low as{" "}
+                <span className="font-serif font-bold" style={{ color: "#C9A961" }}>
+                  $299 per month
+                </span>
+                .
+              </p>
+              <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
+                Pricing varies based on the services you request and the complexity of your needs. Contact us for a personalized quote.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== MEET THE FOUNDERS SECTION ===== */}
+      <section className="py-24 sm:py-32">
         <div className="container max-w-5xl mx-auto px-4">
           <div className="space-y-16">
             {/* Section Title */}
@@ -214,8 +274,8 @@ export default function Home() {
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <Phone className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
                 <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Call</h3>
-                <a href="tel:+1234567890" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
-                  [Your Phone]
+                <a href="tel:+12085146971" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                  (208) 514-6971
                 </a>
               </Card>
               
@@ -223,8 +283,8 @@ export default function Home() {
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <Mail className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
                 <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Email</h3>
-                <a href="mailto:hello@mpfinancial.com" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
-                  [Your Email]
+                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                  bookkeeping@mpfinancialservices.com
                 </a>
               </Card>
               
@@ -232,7 +292,7 @@ export default function Home() {
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <Calendar className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
                 <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Schedule</h3>
-                <a href="#" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
                   Book a Call
                 </a>
               </Card>
