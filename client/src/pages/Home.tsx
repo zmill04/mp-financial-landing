@@ -2,6 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, Calendar, ArrowRight } from "lucide-react";
 
+const SCHEDULE_URL =
+  "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Free+Consultation+with+M+%26+P+Financial+Services&details=Free+bookkeeping+review+booked+via+mpfinancialservice.com.+Add+Google+Meet+video+conferencing+to+this+event.&add=bookkeeping%40mpfinancialservices.com";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#FAFAF8" }}>
@@ -19,11 +22,12 @@ export default function Home() {
           
           {/* CTA Button */}
           <Button 
+            asChild
             className="font-semibold border-2"
             style={{ backgroundColor: "#C9A961", color: "#FFFFFF", borderColor: "#C9A961" }}
             size="sm"
           >
-            Get Started
+            <a href="#contact">Get Started</a>
           </Button>
         </div>
       </header>
@@ -45,12 +49,15 @@ export default function Home() {
             {/* CTA Button */}
             <div className="pt-6">
               <Button 
+                asChild
                 size="lg"
                 className="font-semibold text-base px-10 py-7 rounded-lg border-2 shadow-sm hover:shadow-md transition-all"
                 style={{ backgroundColor: "#C9A961", color: "#FFFFFF", borderColor: "#C9A961" }}
               >
-                Schedule a Free Review
-                <ArrowRight className="ml-2 w-4 h-4" />
+                <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer">
+                  Schedule a Free Review
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </a>
               </Button>
             </div>
           </div>
@@ -255,7 +262,7 @@ export default function Home() {
       </section>
 
       {/* ===== CONTACT CTA SECTION ===== */}
-      <section className="py-24 sm:py-32">
+      <section id="contact" className="py-24 sm:py-32">
         <div className="container max-w-4xl mx-auto px-4">
           <div className="space-y-16">
             {/* Section Title */}
@@ -292,7 +299,7 @@ export default function Home() {
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
                 <Calendar className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
                 <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Schedule</h3>
-                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
                   Book a Call
                 </a>
               </Card>
@@ -301,12 +308,15 @@ export default function Home() {
             {/* Final CTA Button */}
             <div className="flex justify-center pt-4">
               <Button 
+                asChild
                 size="lg"
                 className="font-semibold text-base px-10 py-7 rounded-lg border-2 shadow-sm hover:shadow-md transition-all"
                 style={{ backgroundColor: "#C9A961", color: "#FFFFFF", borderColor: "#C9A961" }}
               >
-                Schedule Your Free Review
-                <ArrowRight className="ml-2 w-4 h-4" />
+                <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer">
+                  Schedule Your Free Review
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </a>
               </Button>
             </div>
           </div>
