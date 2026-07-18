@@ -185,42 +185,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== PRICING SECTION ===== */}
-      <section className="py-24 sm:py-32" style={{ backgroundColor: "#F5F3F0" }}>
-        <div className="container max-w-3xl mx-auto px-4">
-          <div className="space-y-16">
-            {/* Section Title */}
-            <div className="text-center space-y-4">
-              <h2 className="text-4xl sm:text-5xl font-serif font-bold" style={{ color: "#001F3F" }}>
-                Pricing
-              </h2>
-              <div className="flex justify-center">
-                <div className="w-16 h-1 rounded-full" style={{ backgroundColor: "#C9A961" }}></div>
-              </div>
-              <p className="text-lg font-light" style={{ color: "#6B7280" }}>
-                Transparent pricing based on your needs
-              </p>
-            </div>
-
-            {/* Pricing Card */}
-            <div className="rounded-lg border-2 p-10 sm:p-12 text-center space-y-4" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-              <p className="text-2xl sm:text-3xl font-light" style={{ color: "#1F2937" }}>
-                Our services start as low as{" "}
-                <span className="font-serif font-bold" style={{ color: "#C9A961" }}>
-                  $149 per month
-                </span>
-                .
-              </p>
-              <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
-                Pricing varies based on the services you request and the complexity of your needs. Contact us for a personalized quote.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ===== MEET THE FOUNDERS SECTION ===== */}
-      <section className="py-24 sm:py-32">
+      <section className="py-24 sm:py-32" style={{ backgroundColor: "#F5F3F0" }}>
         <div className="container max-w-5xl mx-auto px-4">
           <div className="space-y-16">
             {/* Section Title */}
@@ -275,6 +241,40 @@ export default function Home() {
               </p>
               <p className="text-lg leading-relaxed font-light" style={{ color: "#4B5563" }}>
                 Our goal is simple: give you accurate books, clear insights, and peace of mind so you can focus on what you do best—running your business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== PRICING SECTION ===== */}
+      <section className="py-24 sm:py-32">
+        <div className="container max-w-3xl mx-auto px-4">
+          <div className="space-y-16">
+            {/* Section Title */}
+            <div className="text-center space-y-4">
+              <h2 className="text-4xl sm:text-5xl font-serif font-bold" style={{ color: "#001F3F" }}>
+                Pricing
+              </h2>
+              <div className="flex justify-center">
+                <div className="w-16 h-1 rounded-full" style={{ backgroundColor: "#C9A961" }}></div>
+              </div>
+              <p className="text-lg font-light" style={{ color: "#6B7280" }}>
+                Transparent pricing based on your needs
+              </p>
+            </div>
+
+            {/* Pricing Card */}
+            <div className="rounded-lg border-2 p-10 sm:p-12 text-center space-y-4" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+              <p className="text-2xl sm:text-3xl font-light" style={{ color: "#1F2937" }}>
+                Our services start as low as{" "}
+                <span className="font-serif font-bold" style={{ color: "#C9A961" }}>
+                  $149 per month
+                </span>
+                .
+              </p>
+              <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
+                Pricing varies based on the services you request and the complexity of your needs. Contact us for a personalized quote.
               </p>
             </div>
           </div>
