@@ -36,8 +36,19 @@ export default function Home() {
       </header>
 
       {/* ===== HERO SECTION ===== */}
-      <section className="relative py-24 sm:py-40">
-        <div className="container max-w-4xl mx-auto px-4">
+      <section className="relative py-24 sm:py-40 overflow-hidden">
+        {/* Blurred background image */}
+        <div
+          className="absolute inset-0 scale-110 bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/images/hero-bg.jpeg)",
+            filter: "blur(8px)",
+          }}
+        ></div>
+        {/* Overlay to keep text legible */}
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(250, 250, 248, 0.82)" }}></div>
+
+        <div className="container max-w-4xl mx-auto px-4 relative z-10">
           <div className="space-y-8 text-center">
             {/* Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold leading-tight tracking-tight" style={{ color: "#001F3F" }}>
