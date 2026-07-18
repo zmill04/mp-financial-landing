@@ -18,6 +18,9 @@ export default function Home() {
               alt="M & P Financial Services"
               className="h-14 w-auto"
             />
+            <span className="font-serif font-bold text-lg sm:text-xl" style={{ color: "#001F3F" }}>
+              M&amp;P Financial Services LLC
+            </span>
           </div>
           
           {/* CTA Button */}
@@ -55,7 +58,7 @@ export default function Home() {
                 style={{ backgroundColor: "#C9A961", color: "#FFFFFF", borderColor: "#C9A961" }}
               >
                 <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer">
-                  Schedule a Free Review
+                  Schedule a Free Consultation
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </a>
               </Button>
@@ -271,7 +274,7 @@ export default function Home() {
                 Ready to Get Started?
               </h2>
               <p className="text-lg max-w-2xl mx-auto leading-relaxed font-light" style={{ color: "#6B7280" }}>
-                Let's talk about your bookkeeping and how we can help. Schedule a free review with us.
+                Let's talk about your bookkeeping and how we can help. Schedule a free consultation with us.
               </p>
             </div>
             
@@ -314,7 +317,7 @@ export default function Home() {
                 style={{ backgroundColor: "#C9A961", color: "#FFFFFF", borderColor: "#C9A961" }}
               >
                 <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer">
-                  Schedule Your Free Review
+                  Schedule Your Free Consultation
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </a>
               </Button>
