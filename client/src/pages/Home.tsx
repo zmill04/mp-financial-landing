@@ -45,8 +45,14 @@ export default function Home() {
             filter: "blur(8px)",
           }}
         ></div>
-        {/* Overlay to keep text legible */}
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(250, 250, 248, 0.82)" }}></div>
+        {/* Overlay to keep text legible, fading to solid at top/bottom so it blends into the sections around it */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to bottom, #FAFAF8 0%, rgba(250,250,248,0.65) 18%, rgba(250,250,248,0.65) 75%, #FAFAF8 100%)",
+          }}
+        ></div>
 
         <div className="container max-w-4xl mx-auto px-4 relative z-10">
           <div className="space-y-8 text-center">
