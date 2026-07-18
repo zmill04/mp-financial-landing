@@ -94,7 +94,7 @@ export default function Home() {
             {/* Section Title */}
             <div className="text-center space-y-4">
               <h2 className="text-4xl sm:text-5xl font-serif font-bold" style={{ color: "#001F3F" }}>
-                What We Do
+                Our Services
               </h2>
               <div className="flex justify-center">
                 <div className="w-16 h-1 rounded-full" style={{ backgroundColor: "#C9A961" }}></div>
@@ -104,11 +104,8 @@ export default function Home() {
             {/* Services Grid */}
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Service 1 */}
-              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
-                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
-                </div>
-                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+              <Card className="p-6 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>
                   Monthly Bookkeeping & Bank Reconciliation
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
@@ -117,11 +114,8 @@ export default function Home() {
               </Card>
               
               {/* Service 2 */}
-              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
-                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
-                </div>
-                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+              <Card className="p-6 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>
                   QuickBooks Setup, Cleanup & Migration
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
@@ -130,11 +124,8 @@ export default function Home() {
               </Card>
               
               {/* Service 3 */}
-              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
-                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
-                </div>
-                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+              <Card className="p-6 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>
                   Financial Statement Preparation
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
@@ -143,11 +134,8 @@ export default function Home() {
               </Card>
 
               {/* Service 4 */}
-              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
-                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
-                </div>
-                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+              <Card className="p-6 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>
                   Accounts Payable & Receivable
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
@@ -156,11 +144,8 @@ export default function Home() {
               </Card>
 
               {/* Service 5 */}
-              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
-                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
-                </div>
-                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+              <Card className="p-6 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>
                   Payroll Coordination
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
@@ -169,11 +154,8 @@ export default function Home() {
               </Card>
 
               {/* Service 6 */}
-              <Card className="p-8 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <div className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center" style={{ backgroundColor: "rgba(201, 169, 97, 0.1)" }}>
-                  <div className="w-6 h-6 rounded-full border-2" style={{ borderColor: "#C9A961" }}></div>
-                </div>
-                <h3 className="text-xl font-serif font-bold mb-4" style={{ color: "#001F3F" }}>
+              <Card className="p-6 border-2" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>
                   Tax-Ready, Year-Round
                 </h3>
                 <p className="leading-relaxed font-light" style={{ color: "#6B7280" }}>
