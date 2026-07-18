@@ -19,7 +19,7 @@ export default function Home() {
               className="h-14 w-auto"
             />
             <span className="font-serif font-bold text-lg sm:text-xl" style={{ color: "#001F3F" }}>
-              M&amp;P Financial Services LLC.
+              M&amp;P Financial Services, LLC
             </span>
           </div>
           
