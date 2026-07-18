@@ -10,15 +10,15 @@ export default function Home() {
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: "#FAFAF8" }}>
       {/* ===== HEADER ===== */}
       <header className="sticky top-0 z-50 border-b" style={{ backgroundColor: "#FAFAF8", borderColor: "#E8E6E1" }}>
-        <div className="container flex items-center justify-between py-6">
+        <div className="container flex items-center justify-between py-4">
           {/* Logo - Actual Logo Image */}
-          <div className="flex flex-col items-center gap-1">
+          <div className="flex items-center gap-3">
             <img 
               src="/images/mp-logo.png"
               alt="M & P Financial Services"
               className="h-14 w-auto"
             />
-            <span className="font-serif font-bold text-sm sm:text-base whitespace-nowrap" style={{ color: "#001F3F" }}>
+            <span className="font-serif font-bold text-lg sm:text-xl" style={{ color: "#001F3F" }}>
               M&amp;P Financial Services LLC.
             </span>
           </div>
