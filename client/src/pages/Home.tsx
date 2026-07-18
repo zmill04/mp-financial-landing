@@ -262,7 +262,7 @@ export default function Home() {
       </section>
 
       {/* ===== CONTACT CTA SECTION ===== */}
-      <section id="contact" className="py-24 sm:py-32">
+      <section id="contact" className="py-24 sm:py-32" style={{ backgroundColor: "#F5F3F0" }}>
         <div className="container max-w-4xl mx-auto px-4">
           <div className="space-y-16">
             {/* Section Title */}
