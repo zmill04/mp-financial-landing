@@ -191,7 +191,7 @@ export default function Home() {
                 <img 
                   src="/images/founder-nathan.png" 
                   alt="Founder 1" 
-                  className="w-full aspect-square rounded-lg border-2 object-cover"
+                  className="w-full aspect-square rounded-lg border-2 object-cover object-top"
                   style={{ borderColor: "#E8E6E1" }}
                 />
                 <p className="mt-4 text-lg font-serif font-bold" style={{ color: "#001F3F" }}>
