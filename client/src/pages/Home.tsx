@@ -222,17 +222,17 @@ export default function Home() {
                 <img
                   src="/images/cert-qbo.png"
                   alt="Intuit QuickBooks Online Certified ProAdvisor"
-                  className="h-24 sm:h-28 w-auto"
+                  className="h-24 sm:h-28 w-auto drop-shadow-md"
                 />
                 <img
                   src="/images/cert-advanced-qbo.png"
                   alt="Intuit Advanced QuickBooks Online Certified ProAdvisor"
-                  className="h-24 sm:h-28 w-auto"
+                  className="h-24 sm:h-28 w-auto drop-shadow-md"
                 />
                 <img
                   src="/images/cert-payroll.png"
                   alt="Intuit QuickBooks Payroll Certified ProAdvisor"
-                  className="h-24 sm:h-28 w-auto"
+                  className="h-24 sm:h-28 w-auto drop-shadow-md"
                 />
               </div>
             </div>
