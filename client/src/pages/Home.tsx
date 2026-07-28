@@ -212,6 +212,30 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
+            {/* Certifications */}
+            <div className="text-center space-y-6">
+              <p className="text-sm font-semibold tracking-wide uppercase" style={{ color: "#C9A961" }}>
+                Certified QuickBooks ProAdvisors
+              </p>
+              <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+                <img
+                  src="/images/cert-qbo.png"
+                  alt="Intuit QuickBooks Online Certified ProAdvisor"
+                  className="h-24 sm:h-28 w-auto"
+                />
+                <img
+                  src="/images/cert-advanced-qbo.png"
+                  alt="Intuit Advanced QuickBooks Online Certified ProAdvisor"
+                  className="h-24 sm:h-28 w-auto"
+                />
+                <img
+                  src="/images/cert-payroll.png"
+                  alt="Intuit QuickBooks Payroll Certified ProAdvisor"
+                  className="h-24 sm:h-28 w-auto"
+                />
+              </div>
+            </div>
             
             {/* Team Bio */}
             <div className="rounded-lg border-2 p-10 sm:p-12 space-y-6" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
