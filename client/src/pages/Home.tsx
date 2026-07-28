@@ -305,27 +305,33 @@ export default function Home() {
             <div className="grid sm:grid-cols-3 gap-6">
               {/* Phone */}
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <Phone className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
-                <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Call</h3>
-                <a href="tel:+12085146971" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-5" style={{ backgroundColor: "rgba(201, 169, 97, 0.12)" }}>
+                  <Phone className="w-10 h-10" style={{ color: "#C9A961" }} />
+                </div>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Call</h3>
+                <a href="tel:+12085146971" className="font-semibold text-lg" style={{ color: "#C9A961" }}>
                   (208) 514-6971
                 </a>
               </Card>
               
               {/* Email */}
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <Mail className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
-                <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Email</h3>
-                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-sm break-all block text-center" style={{ color: "#C9A961" }}>
+                <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-5" style={{ backgroundColor: "rgba(201, 169, 97, 0.12)" }}>
+                  <Mail className="w-10 h-10" style={{ color: "#C9A961" }} />
+                </div>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Email</h3>
+                <a href="mailto:bookkeeping@mpfinancialservices.com" className="font-semibold text-lg break-all block text-center" style={{ color: "#C9A961" }}>
                   bookkeeping@mpfinancialservices.com
                 </a>
               </Card>
               
               {/* Schedule */}
               <Card className="p-8 border-2 text-center" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
-                <Calendar className="w-8 h-8 mx-auto mb-4" style={{ color: "#C9A961" }} />
-                <h3 className="font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Schedule</h3>
-                <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer" className="font-semibold text-sm" style={{ color: "#C9A961" }}>
+                <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-5" style={{ backgroundColor: "rgba(201, 169, 97, 0.12)" }}>
+                  <Calendar className="w-10 h-10" style={{ color: "#C9A961" }} />
+                </div>
+                <h3 className="text-xl font-serif font-bold mb-3" style={{ color: "#001F3F" }}>Schedule</h3>
+                <a href={SCHEDULE_URL} target="_blank" rel="noopener noreferrer" className="font-semibold text-lg" style={{ color: "#C9A961" }}>
                   Book a Call
                 </a>
               </Card>
