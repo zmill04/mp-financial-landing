@@ -66,11 +66,6 @@ export default function Home() {
               Your Books. Clear. Accurate. Simple.
             </h1>
             
-            {/* Subheadline */}
-            <p className="text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed font-light" style={{ color: "#6B7280" }}>
-              Two accounting experts managing your finances so you can focus on growing your business.
-            </p>
-            
             {/* CTA Button */}
             <div className="pt-6">
               <Button 
