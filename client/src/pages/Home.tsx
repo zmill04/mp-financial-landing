@@ -254,11 +254,11 @@ export default function Home() {
       </section>
 
       {/* ===== PRICING SECTION ===== */}
-      <section className="py-24 sm:py-32">
+      <section className="py-12 sm:py-16">
         <div className="container max-w-3xl mx-auto px-4">
-          <div className="space-y-16">
+          <div className="space-y-8">
             {/* Section Title */}
-            <div className="text-center space-y-4">
+            <div className="text-center space-y-3">
               <h2 className="text-4xl sm:text-5xl font-serif font-bold" style={{ color: "#001F3F" }}>
                 Pricing
               </h2>
@@ -271,7 +271,7 @@ export default function Home() {
             </div>
 
             {/* Pricing Card */}
-            <div className="rounded-lg border-2 p-10 sm:p-12 text-center space-y-4" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+            <div className="rounded-lg border-2 p-8 sm:p-10 text-center space-y-3" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
               <p className="text-2xl sm:text-3xl font-light" style={{ color: "#1F2937" }}>
                 Our services start as low as{" "}
                 <span className="font-serif font-bold" style={{ color: "#C9A961" }}>
