@@ -215,30 +215,30 @@ export default function Home() {
 
             {/* Certifications */}
             <div className="text-center space-y-6">
-              <p className="text-sm font-semibold tracking-wide uppercase" style={{ color: "#C9A961" }}>
-                Certified QuickBooks ProAdvisors
-              </p>
-              <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
+              <div className="flex flex-wrap justify-center items-center gap-10 sm:gap-16">
                 <img
                   src="/images/cert-qbo.png"
                   alt="Intuit QuickBooks Online Certified ProAdvisor"
-                  className="h-24 sm:h-28 w-auto drop-shadow-md"
+                  className="h-36 sm:h-44 w-auto drop-shadow-md"
                 />
                 <img
                   src="/images/cert-advanced-qbo.png"
                   alt="Intuit Advanced QuickBooks Online Certified ProAdvisor"
-                  className="h-24 sm:h-28 w-auto drop-shadow-md"
+                  className="h-36 sm:h-44 w-auto drop-shadow-md"
                 />
                 <img
                   src="/images/cert-payroll.png"
                   alt="Intuit QuickBooks Payroll Certified ProAdvisor"
-                  className="h-24 sm:h-28 w-auto drop-shadow-md"
+                  className="h-36 sm:h-44 w-auto drop-shadow-md"
                 />
               </div>
             </div>
             
             {/* Team Bio */}
             <div className="rounded-lg border-2 p-10 sm:p-12 space-y-6" style={{ backgroundColor: "#FFFFFF", borderColor: "#E8E6E1" }}>
+              <h3 className="text-2xl font-serif font-bold text-center" style={{ color: "#001F3F" }}>
+                Our Mission Statement
+              </h3>
               <p className="text-lg leading-relaxed font-light" style={{ color: "#4B5563" }}>
                 We started M & P because we saw small business owners struggling with bookkeeping. Spreadsheets everywhere. Records that don't match. Stress at tax time. We knew there had to be a better way.
               </p>
