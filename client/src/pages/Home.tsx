@@ -56,6 +56,11 @@ export default function Home() {
 
         <div className="container max-w-4xl mx-auto px-4 relative z-10">
           <div className="space-y-8 text-center">
+            {/* Eyebrow */}
+            <p className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold tracking-tight" style={{ color: "#C9A961" }}>
+              Grow Your Business.
+            </p>
+
             {/* Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif font-bold leading-tight tracking-tight" style={{ color: "#001F3F" }}>
               Your Books. Clear. Accurate. Simple.
