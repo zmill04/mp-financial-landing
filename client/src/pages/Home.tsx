@@ -240,13 +240,13 @@ export default function Home() {
                 Our Mission Statement
               </h3>
               <p className="text-lg leading-relaxed font-light" style={{ color: "#4B5563" }}>
-                At M&amp;P Financial Services, our mission is to provide small business owners with accurate, organized, and affordable bookkeeping—without the high rates.
+                At M&amp;P Financial Services, our mission is to provide small business owners with accurate, organized, and affordable bookkeeping, without the high rates.
               </p>
               <p className="text-lg leading-relaxed font-light" style={{ color: "#4B5563" }}>
                 We started M&amp;P after seeing owners struggle with scattered spreadsheets, mismatched records, and tax-time stress. With our accounting education, professional experience, and two sets of eyes reviewing your books, we bring clarity and precision to your finances.
               </p>
               <p className="text-lg leading-relaxed font-light" style={{ color: "#4B5563" }}>
-                We treat your business like our own, giving you clean records, clear financial insights, and peace of mind so you can focus on what you do best—running your business.
+                We treat your business like our own, giving you clean records, clear financial insights, and peace of mind so you can focus on what you do best: running your business.
               </p>
             </div>
           </div>
